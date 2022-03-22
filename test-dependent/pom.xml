@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>io.github.githublaohu</groupId>
 		<artifactId>lamp-dependent</artifactId>
-		<version>0.1.0</version>
+		<version>0.1.4</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 	<artifactId>test-dependent</artifactId>
@@ -18,6 +18,6 @@
 	</dependencies>
 	<modules>
 		<module>test-mock-dependent</module>
-    <module>test-spring-dependent</module>
-  </modules>
+		<module>test-spring-dependent</module>
+	</modules>
 </project>

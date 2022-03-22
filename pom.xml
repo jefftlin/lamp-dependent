@@ -6,7 +6,7 @@
 	<groupId>io.github.githublaohu</groupId>
 	<artifactId>lamp-dependent</artifactId>
 	<name>lamp-dependent</name>
-	<version>0.1.0</version>
+	<version>0.1.4</version>
 	<packaging>pom</packaging>
 	<url>https://github.com/githublaohu/lamp-dependent</url>
 	<scm>
@@ -23,7 +23,7 @@
 		</developer>
 	</developers>
 	<properties>
-		<reversion>0.1.0</reversion>
+		<reversion>0.1.4</reversion>
 	</properties>
 	<licenses>
 		<license>
@@ -50,19 +50,19 @@
 			<id>sonatype</id>
 			<build>
 				<plugins>
-				<!-- Source -->
+					<!-- Source -->
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-source-plugin</artifactId>
-						<version>2.2.1</version>
-						<!--<executions>
+						<version>3.0.1</version>
+						<executions>
 							<execution>
-							<phase>package</phase>
+								<id>attach-sources</id>
 								<goals>
 									<goal>jar-no-fork</goal>
 								</goals>
 							</execution>
-						</executions>-->
+						</executions>
 					</plugin>
 					<!-- Javadoc -->
 					<plugin>
@@ -83,14 +83,14 @@
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-gpg-plugin</artifactId>
 						<version>1.5</version>
-						<!--<executions>
+						<executions>
 							<execution>
 								<phase>verify</phase>
 								<goals>
 									<goal>sign</goal>
 								</goals>
 							</execution>
-						</executions>-->
+						</executions>
 					</plugin>
 				</plugins>
 			</build>
